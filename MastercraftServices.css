@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/BackgroundWoodFinish.jfif);
+    /* Image Source: https://mockup.photos/?utm_medium=referral&utm_source=unsplash */
+    background-size: cover;
+}
+
+#navbar {
+    height: 20%;
+    padding: 1% 0% 0% 2%;
+    display: flex;
+    position: fixed;
+    background-color: rgba(116, 82, 20, 0.534);
+    top: 0;
+}
+
+/* .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  } */
+
+#topnav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#navcontact {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#navcontact img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+#navcontact a {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+
+#phone {
+    padding: 1%;
+    display: flex;
+}
+
+#email {
+    margin: 1% 2%;
+    display: flex;
+}
+
+#logo {
+    height: 60%;
+    width: 8%;
+    background-color: rgba(10, 60, 153, 0.671);
+    padding: 0.5%;
+    border-radius: 50%;
+    border: 3px solid white;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+#navlinks {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+}
+
+#navlinks a {
+    font-size: 3vw;
+    color: wheat;
+
+}
+
+main {
+    height: 60%;
+    margin-top: 12%;
+}
+
+#imagepanel {
+    display: flex;
+    width: 100%;  
+    height: 500px;  
+    
+}
+
+#imagepanel img {
+    width: 1%;
+    margin: 0;
+    flex-basis: 25%;
+    transition: ease-out 1s;
+    display: flex;
+}
+
+#imagepanel img:hover {
+    width: 96%;
+    transition: ease-in 1s;
+}
+
+#content {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 2%;
+}
+
+#content img {
+    width: 40%;
+    display: block;
+}
+
+#blurb {
+    text-decoration: none;
+    color: #000;
+    background: #ffc;
+    display: block;
+    height: 80%;
+    width: 30%;
+    padding: 1em;
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    transform: rotate(-6deg);
+    transition: transform .15s linear;
+    margin-top: 5%;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.4vw;
+}
+
+#blurb:hover,#blurb:focus{
+    box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.25);
+    position:relative;
+    z-index:5;
+}
+
+footer {
+    height: 15%;
+}
